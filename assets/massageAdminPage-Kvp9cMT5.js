@@ -1,0 +1,1 @@
+import{_ as s,c as a,a as o,o as t}from"./index-BhkLSAIk.js";const n={},c={class:"bg-[#f3f4f6] p-4"};function r(f,e){return t(),a("div",c,[...e[0]||(e[0]=[o("h1",null,"hi 2",-1)])])}const d=s(n,[["render",r]]);export{d as default};
