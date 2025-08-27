@@ -1,6 +1,6 @@
 <template>
   <nav class="bg-white text-gray-500  px-6 py-5 flex justify-center items-center">
-    <ul class="flex space-x-10 font-bold">
+    <ul class="flex space-x-6 font-bold">
       <li>
         <RouterLink to="/" class="hover:text-gray-300">Home</RouterLink>
       </li>
@@ -19,6 +19,6 @@
     </ul>
   </nav>
 </template>
-<style scoped> 
+<style scoped>
   @reference "@/assets/main.css";
 </style>
