@@ -70,7 +70,6 @@ defineRule('min_value', min_value)
 
 const reportStore = useReportStore()
 
-// آیتم موقت برای فرم
 const part = reactive({
   partName: '',
   quantity: '',
@@ -78,10 +77,7 @@ const part = reactive({
 })
 
 function onSubmit() {
-  // اضافه کردن آیتم به store
   reportStore.addSparePart({ ...part })
-
-  // پاک کردن فرم برای آیتم بعدی
   part.partName = ''
   part.quantity = ''
   part.status = ''

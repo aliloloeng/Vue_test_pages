@@ -1,6 +1,6 @@
 <template>
-  <section class="bg-[#f3f4f6] p-4 flex justify-center items-center">
-    <div class="w-[95%] bg-[#2e64d5] rounded-2xl text-white p-6 relative  overflow-hidden">
+  <section class="bg-[#f3f4f6]  flex justify-center items-center">
+    <div class="w-[95%] max-w-[375px] mx-auto bg-[#2e64d5] rounded-2xl text-white p-6 relative overflow-hidden">
       <div class="flex items-center font-bold text-2xl mb-3">
         <IconSmartphone />
         <h2>IndustryPro App</h2>
@@ -12,7 +12,7 @@
           all in one powerful mobile app.
         </p>
       </div>
-      <div class="flex justify-around items-center mt-5 ">
+      <div class="flex justify-around items-center mt-5">
         <div class="flex flex-col items-center text-[#c3d5f8] z-2">
           <h3 class="font-bold text-white text-xl">24/7</h3>
           <p>Support</p>
@@ -25,7 +25,7 @@
           <h3 class="font-bold text-white text-xl">99.9%</h3>
           <p>Uptime</p>
         </div>
-        <div class="flex flex-col items-center ml-20 font-bold text-[#e3e7f6] py-3 px-4 bg-[#6581d4] rounded-3xl">
+        <div class="flex flex-col items-center ml-10 font-bold text-[#e3e7f6] py-3 px-4 bg-[#6581d4] rounded-3xl">
           <p>V2.1.0</p>
         </div>
       </div>

@@ -1,10 +1,10 @@
 <template>
   <div
-    class="flex flex-col justify-between items-center bg-white p-3 rounded-lg border-l-5 border-gray-200 hover:shadow-md transition"
+    class="flex flex-col justify-between items-center bg-white p-3 rounded-lg border-l-5 border-gray-200 hover:shadow-md transition w-[95%] max-w-[375px] mx-auto"
     :class="borderColor(status)"
   >
-    <div class="flex justify-center items-center gap-[80px] mb-5">
-      <p class="font-semibold text-gray-800">{{ title }}</p>
+    <div class="flex justify-center items-center gap-[50px] mb-5">
+      <p class="font-semibold text-sm text-gray-800">{{ title }}</p>
       <span
         :class="statusColor(status)"
         class="px-3 py-1 rounded-full text-sm font-semibold"
@@ -13,13 +13,13 @@
       </span>
     </div>
 
-    <div class="flex items-center space-x-4 mb-5">
-      <p class="w-90">{{ text }}</p>
+    <div class="flex items-center text-xs space-x-4 mb-5">
+      <p class="">{{ text }}</p>
     </div>
 
-    <div class="flex justify-center items-center gap-[110px] text-sm text-gray-500">
+    <div class="flex justify-center items-center gap-[80px] text-xs text-gray-500">
       <p>Ticket : #{{ Ticket }} </p>
-      <p>Date: {{ date }}</p>
+      <p>updated: {{ date }}</p>
     </div>
   </div>
 </template>

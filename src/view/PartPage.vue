@@ -1,7 +1,18 @@
 <template>
   <div class="flex justify-center">
-    <h1 class="text-2xl font-bold">🧩 Part Page</h1>
+    <div>
+      <HeaderPartPage/>
+      <SearchPart/>
+      <CategoriesPart/>
+      <ProductsComponent/>
+    </div>
   </div>
 </template>
-<script setup></script>
+<script setup>
+import CategoriesPart from '@/components/PartPage/CategoriesPart.vue';
+import HeaderPartPage from '@/components/PartPage/HeaderPartPage.vue';
+import ProductsComponent from '@/components/PartPage/ProductsComponent.vue';
+import SearchPart from '@/components/PartPage/SearchPart.vue';
+
+</script>
 <style scoped></style>

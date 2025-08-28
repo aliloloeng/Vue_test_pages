@@ -1,10 +1,10 @@
 <template>
-  <header class="bg-white gap-20 text-gray-700 font-semibold px-6 py-3 flex justify-center items-center drop-shadow-md relative z-50">
+  <header class="bg-white gap-15 text-gray-700 font-semibold px-2 py-3 flex justify-center items-center drop-shadow-md relative z-50 w-[95%] max-w-[375px] mx-auto">
     <RouterLink to="/">
       <IconArrow class="w-6 h-6"/>
     </RouterLink>
 
-    <h1 class="text-2xl font-bold text-gray-700">Support Center</h1>
+    <h1 class="text-xl font-bold text-gray-700">Support Center</h1>
 
     <button @click="toggleMenu" class="focus:outline-none">
       <component :is="menuOpen ? IconClose : IconVerticalMenu" class="w-6 h-6"/>

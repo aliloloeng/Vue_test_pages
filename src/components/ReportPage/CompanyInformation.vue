@@ -1,6 +1,6 @@
 <template>
   <div class="w-[360px] bg-white px-6 py-8 rounded-xl mb-6">
-    <!-- Header -->
+
     <div class="flex items-center gap-4 mb-4">
       <div class="bg-blue-200 p-2 rounded-xl w-10">
         <IconCompany class="w-full h-auto"/>
@@ -47,16 +47,5 @@ defineRule('required', required)
 const reportStore = useReportStore()
 
 function onSubmit() {
-  // فقط state آپدیت می‌شود، alert حذف شد
-  // submit نهایی از فرم اصلی انجام می‌شود
 }
 </script>
-
-
-
-<!--
-v-model فیلدها به store وصل باشه (companyInfo)
-
-قوانین vee-validate بمونه
-
-onSubmit فقط state آپدیت کنه و alert حذف بش -->

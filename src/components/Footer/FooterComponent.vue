@@ -1,24 +1,21 @@
 <template>
-  <nav class="bg-white text-gray-500  px-6 py-5 flex justify-center items-center">
-    <ul class="flex space-x-6 font-bold">
+  <nav class="card-bg px-6 py-5 center-flex mobile-box">
+    <ul class="flex gap-6 font-bold">
       <li>
-        <RouterLink to="/" class="hover:text-gray-300">Home</RouterLink>
+        <RouterLink to="/" class="nav-link">Home</RouterLink>
       </li>
       <li>
-        <RouterLink to="/report" class="hover:text-gray-300">Report</RouterLink>
+        <RouterLink to="/report" class="nav-link">Report</RouterLink>
       </li>
       <li>
-        <RouterLink to="/machines" class="hover:text-gray-300">Machines</RouterLink>
+        <RouterLink to="/machines" class="nav-link">Machines</RouterLink>
       </li>
       <li>
-        <RouterLink to="/part" class="hover:text-gray-300">Part</RouterLink>
+        <RouterLink to="/part" class="nav-link">Part</RouterLink>
       </li>
       <li>
-        <RouterLink to="/profile" class="hover:text-gray-300">Profile</RouterLink>
+        <RouterLink to="/profile" class="nav-link">Profile</RouterLink>
       </li>
     </ul>
   </nav>
 </template>
-<style scoped>
-  @reference "@/assets/main.css";
-</style>

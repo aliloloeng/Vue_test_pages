@@ -54,7 +54,5 @@ defineRule('required', required)
 const reportStore = useReportStore()
 
 function onSubmit() {
-  // فقط state آپدیت می‌شود، alert حذف شد
-  // submit نهایی از فرم اصلی انجام می‌شود
 }
 </script>

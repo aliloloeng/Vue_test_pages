@@ -1,6 +1,6 @@
 <template>
-  <section class="bg-[#f3f4f6] py-4">
-    <div class="flex items-center space-x-4 p-3 bg-white">
+  <section class="bg-[#f3f4f6] py-6">
+    <div class="flex items-center space-x-4 p-3 bg-white w-[95%] max-w-[375px] mx-auto">
       <img
         :src="user"
         alt="User Avatar"

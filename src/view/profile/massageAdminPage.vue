@@ -1,7 +1,10 @@
 <template>
-  <div class="bg-[#f3f4f6] p-4">
-    <h1>hi 2</h1>
+  <div>
+    <TicketsComponent/>
   </div>
 </template>
-<script setup></script>
+<script setup>
+import TicketsComponent from '@/components/MyTicketPage.vue/TicketsComponent.vue';
+
+</script>
 <style scoped></style>

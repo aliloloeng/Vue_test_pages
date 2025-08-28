@@ -2,7 +2,6 @@
   <header
     class="bg-white text-gray-700 px-4 py-3 flex items-center drop-shadow-md"
   >
-
     <RouterLink to="/" class="mr-2">
       <IconArrow class="w-6 h-6" />
     </RouterLink>
@@ -20,9 +19,9 @@
 
       <div class="flex items-center gap-2 sm:gap-3">
         <button
-          class="flex gap-1 px-2 py-1 text-base sm:text-sm text-[#3b82f6] bg-blue-100  rounded-xl hover:shadow-blue-300 shadow-sm "
+          class="flex gap-1 px-2 py-1 text-sm sm:text-base text-[#3b82f6] bg-blue-100 rounded-xl hover:shadow-blue-300 shadow-sm"
         >
-          <IconSave/>
+          <IconSave />
           Save
         </button>
         <img

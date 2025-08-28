@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-[#f3f4f6] p-4 rounded-xl shadow-md w-full max-w-3xl space-y-4">
+  <div class="bg-[#f3f4f6] py-4  shadow-md w-[95%] max-w-[375px] mx-auto space-y-4">
 
-    <div class="flex items-center justify-between mb-8">
+    <div class="flex items-center justify-between px-4 mb-8">
 
       <div>
         <select v-model="selectedFilter" class="border bg-white border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
@@ -46,7 +46,7 @@ import TicketsItemComponent from './TicketsItemComponent.vue'
 const tickets = ref([
   {
     id: 1,
-    title: 'Machine A malfunction',
+    title: 'Login authentiction failed ',
     status: 'Urgrent',
     text:"I can't log in to my account. I've tried resetting my password multiple times but I'm still gettin...",
     date: '2025-08-20',
@@ -54,7 +54,7 @@ const tickets = ref([
   },
   {
     id: 2,
-    title: 'Request for part replacement',
+    title: 'Feature request : Dark mode',
     status: 'Resolved',
     text:"Would it be possible to add a dark mode option to the app? It would be easier on the eyes wh...",
     date: '2025-08-18',
@@ -62,7 +62,7 @@ const tickets = ref([
   },
   {
     id: 3,
-    title: 'Software update needed',
+    title: 'Payment issue with subscription',
     status: 'In Progress',
     text:"I'm having trouble with my monthly payment.The system shows an error when I try to upda...",
     date: '2025-08-15',
@@ -77,7 +77,6 @@ function toggleSort() {
   sortAsc.value = !sortAsc.value
 }
 
-// ✨ منطق جدید فیلتر
 const filteredTickets = computed(() => {
   let filtered = tickets.value
 

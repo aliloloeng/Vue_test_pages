@@ -6,12 +6,14 @@ import MachinesPage from '@/view/MachinesPage.vue'
 import PartPage from '@/view/PartPage.vue'
 import ProfilePage from '@/view/ProfilePage.vue'
 import ReportPage from '@/view/ReportPage.vue'
+import MyOrderPage from '@/view/MyOrderPage.vue'
 
 const routes = [
 { path: '/', name: 'Home', component: HomeView },
 { path: '/report', name: 'Report', component: ReportPage },
 { path: '/machines', name: 'Machines', component: MachinesPage },
 { path: '/part', name: 'Part', component: PartPage },
+{path: '/my-order',name: 'MyOrderPage',component: MyOrderPage,},
 {
   path: '/profile',
   name: 'Profile',
